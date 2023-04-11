@@ -1,0 +1,4 @@
+<div *ngFor="let song of songs">
+<button (click)="playSong(song.id.toString())">{{ song.name }} {{ song.artist }}</button>
+
+</div>
